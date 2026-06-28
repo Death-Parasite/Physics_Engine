@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Physics/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

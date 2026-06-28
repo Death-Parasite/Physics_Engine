@@ -1,0 +1,5 @@
+C:/Physics/build/CMakeFiles/NextGenPhysics.dir
+C:/Physics/build/CMakeFiles/TestCloth.dir
+C:/Physics/build/CMakeFiles/TestClothLive.dir
+C:/Physics/build/CMakeFiles/edit_cache.dir
+C:/Physics/build/CMakeFiles/rebuild_cache.dir
