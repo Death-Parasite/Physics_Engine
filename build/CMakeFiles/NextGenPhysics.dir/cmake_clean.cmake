@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj"
+  "CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj.d"
   "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj"
   "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj.d"
   "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj"

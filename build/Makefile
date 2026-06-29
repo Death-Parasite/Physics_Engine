@@ -56,10 +56,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Physics
+CMAKE_SOURCE_DIR = C:\Physics_Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Physics\build
+CMAKE_BINARY_DIR = C:\Physics_Engine\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Physics\build\CMakeFiles C:\Physics\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Physics_Engine\build\CMakeFiles C:\Physics_Engine\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Physics\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Physics_Engine\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ TestClothLive: cmake_check_build_system
 TestClothLive/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClothLive.dir\build.make CMakeFiles/TestClothLive.dir/build
 .PHONY : TestClothLive/fast
+
+Cloth/ClothConstraints.obj: Cloth/ClothConstraints.cpp.obj
+.PHONY : Cloth/ClothConstraints.obj
+
+# target to build an object file
+Cloth/ClothConstraints.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NextGenPhysics.dir\build.make CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj
+.PHONY : Cloth/ClothConstraints.cpp.obj
+
+Cloth/ClothConstraints.i: Cloth/ClothConstraints.cpp.i
+.PHONY : Cloth/ClothConstraints.i
+
+# target to preprocess a source file
+Cloth/ClothConstraints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NextGenPhysics.dir\build.make CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.i
+.PHONY : Cloth/ClothConstraints.cpp.i
+
+Cloth/ClothConstraints.s: Cloth/ClothConstraints.cpp.s
+.PHONY : Cloth/ClothConstraints.s
+
+# target to generate assembly for a file
+Cloth/ClothConstraints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NextGenPhysics.dir\build.make CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.s
+.PHONY : Cloth/ClothConstraints.cpp.s
 
 Cloth/ClothMesh.obj: Cloth/ClothMesh.cpp.obj
 .PHONY : Cloth/ClothMesh.obj
@@ -285,6 +309,9 @@ help:
 	@echo ... NextGenPhysics
 	@echo ... TestCloth
 	@echo ... TestClothLive
+	@echo ... Cloth/ClothConstraints.obj
+	@echo ... Cloth/ClothConstraints.i
+	@echo ... Cloth/ClothConstraints.s
 	@echo ... Cloth/ClothMesh.obj
 	@echo ... Cloth/ClothMesh.i
 	@echo ... Cloth/ClothMesh.s

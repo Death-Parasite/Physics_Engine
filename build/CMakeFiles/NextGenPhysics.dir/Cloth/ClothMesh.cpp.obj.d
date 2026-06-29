@@ -1,6 +1,8 @@
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: \
- C:\Physics\Cloth\ClothMesh.cpp C:\Physics\Cloth\ClothMesh.h \
- C:\Physics\Cloth\ClothSolver.h C:/Physics/Core/Types/PhysicsTypes.h \
+ C:\Physics_Engine\Cloth\ClothMesh.cpp \
+ C:\Physics_Engine\Cloth\ClothMesh.h \
+ C:\Physics_Engine\Cloth\ClothSolver.h \
+ C:/Physics_Engine/Core/Types/PhysicsTypes.h \
  C:/msys64/ucrt64/include/c++/16.1.0/vector \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -71,7 +73,9 @@ CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/tuple \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h \
- C:/Physics/Math/VectorMath.h C:/msys64/ucrt64/include/c++/16.1.0/cmath \
+ C:\Physics_Engine\Cloth\ClothConstraints.h \
+ C:/Physics_Engine/Math/VectorMath.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/cmath \
  C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/stdlib.h \

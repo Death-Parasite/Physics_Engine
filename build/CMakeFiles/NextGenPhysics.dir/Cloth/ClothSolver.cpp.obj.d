@@ -1,6 +1,7 @@
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: \
- C:\Physics\Cloth\ClothSolver.cpp C:\Physics\Cloth\ClothSolver.h \
- C:/Physics/Core/Types/PhysicsTypes.h \
+ C:\Physics_Engine\Cloth\ClothSolver.cpp \
+ C:\Physics_Engine\Cloth\ClothSolver.h \
+ C:/Physics_Engine/Core/Types/PhysicsTypes.h \
  C:/msys64/ucrt64/include/c++/16.1.0/vector \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -71,7 +72,9 @@ CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/tuple \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h \
- C:/Physics/Math/VectorMath.h C:/msys64/ucrt64/include/c++/16.1.0/cmath \
+ C:\Physics_Engine\Cloth\ClothConstraints.h \
+ C:\Physics_Engine\Cloth\ClothMesh.h C:/Physics_Engine/Math/PhysicsMath.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/cmath \
  C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/stdlib.h \
@@ -96,4 +99,16 @@ CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
- C:/msys64/ucrt64/include/c++/16.1.0/tr1/riemann_zeta.tcc
+ C:/msys64/ucrt64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
+ C:/msys64/ucrt64/include/c++/16.1.0/cstdlib \
+ C:/msys64/ucrt64/include/c++/16.1.0/algorithm \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algo.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algobase.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h \
+ C:/Physics_Engine/Math/VectorMath.h

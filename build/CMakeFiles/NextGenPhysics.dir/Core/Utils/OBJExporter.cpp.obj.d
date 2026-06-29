@@ -1,6 +1,6 @@
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: \
- C:\Physics\Core\Utils\OBJExporter.cpp \
- C:\Physics\Core\Utils\OBJExporter.h \
+ C:\Physics_Engine\Core\Utils\OBJExporter.cpp \
+ C:\Physics_Engine\Core\Utils\OBJExporter.h \
  C:/msys64/ucrt64/include/c++/16.1.0/string \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -109,7 +109,7 @@ CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/tuple \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h \
- C:/Physics/Core/Types/PhysicsTypes.h \
+ C:/Physics_Engine/Core/Types/PhysicsTypes.h \
  C:/msys64/ucrt64/include/c++/16.1.0/vector \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_vector.h \

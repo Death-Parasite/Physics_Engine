@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Physics/Cloth/ClothMesh.cpp" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj.d"
-  "C:/Physics/Cloth/ClothSolver.cpp" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj.d"
-  "C:/Physics/Core/Utils/OBJExporter.cpp" "CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj.d"
+  "C:/Physics_Engine/Cloth/ClothConstraints.cpp" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj.d"
+  "C:/Physics_Engine/Cloth/ClothMesh.cpp" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj.d"
+  "C:/Physics_Engine/Cloth/ClothSolver.cpp" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj.d"
+  "C:/Physics_Engine/Core/Utils/OBJExporter.cpp" "CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj" "gcc" "CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

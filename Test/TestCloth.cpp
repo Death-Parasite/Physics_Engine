@@ -1,45 +1,34 @@
 #include <iostream>
-#include <filesystem>
-#include <sstream>
-#include <iomanip>
 #include "../Cloth/ClothSolver.h"
-#include "../Core/Utils/OBJExporter.h"
 
 using namespace Physics;
-namespace fs = std::filesystem;
 
 int main() {
-    std::cout << "=============================================" << std::endl;
-    std::cout << "   NEXT-GEN 3D CLOTH SIMULATION BAKER        " << std::endl;
-    std::cout << "=============================================" << std::endl;
-
-    std::string outDir = "cloth_frames_3d";
-    fs::create_directories(outDir);
+    std::cout << "=== TIER 1000-FACES AUTOMATED STABILITY TEST ===" << std::endl;
 
     ClothSolver solver;
-    solver.InitializeGridMesh(10, 10, 0.2f, 2.0f);
-
-    solver.PinParticle(0); 
-    solver.PinParticle(9); 
+    solver.InitializeGridMesh(24, 24, 0.08f, 1.5f); // 1,058 Faces
+    
+    // --- YAHAN FIX HUA: SetSphereCollider ab AddSphereCollider ban chuka hai ---
+    solver.AddSphereCollider(Vec3(0, 0.5f, 0), 0.7f);
 
     Vec3 gravity(0.0f, -9.81f, 0.0f);
-    float dt = 0.016f; 
+    Vec3 wind(3.0f, 0.0f, 1.0f);
 
-    std::cout << ">> Baking 60 frames of 3D Mesh to folder: '" << outDir << "'..." << std::endl;
+    std::cout << "Simulating 120 Frames of high-density collision..." << std::endl;
 
-    for (int frame = 1; frame <= 60; ++frame) {
-        solver.StepSimulation(dt, gravity, 8); 
-
-        std::ostringstream ss;
-        ss << outDir << "/frame_" << std::setw(3) << std::setfill('0') << frame << ".obj";
-
-        OBJExporter::ExportFrame(ss.str(), solver.GetParticleData());
-
-        if (frame % 15 == 0) {
-            std::cout << "   [✓] Baked Frame " << frame << " / 60" << std::endl;
-        }
+    for (int f = 1; f <= 120; ++f) {
+        solver.StepSimulation(0.016f, gravity, wind, 10);
     }
 
-    std::cout << "\n>> SUCCESS! Poore 60 3D Models disk par bake ho chuke hain!" << std::endl;
-    return 0;
+    float finalY = solver.GetParticleData().positions[280].y;
+    std::cout << "Center Particle Y after drape: " << finalY << std::endl;
+
+    if (finalY > 0.45f && finalY < 1.3f) {
+        std::cout << ">> 1K MILESTONE PASSED: Mesh rested stably on sphere!" << std::endl;
+        return 0;
+    } else {
+        std::cout << ">> TEST FAILED: Explosion or clipping detected!" << std::endl;
+        return 1;
+    }
 }

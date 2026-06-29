@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Physics/build/cmake_install.cmake"
+		"C:/Physics_Engine/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

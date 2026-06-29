@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/TestClothLive.dir/includes_CXX.rsp
 
-CXX_FLAGS = -std=gnu++20 -IC:/msys64/ucrt64/include
+CXX_FLAGS =  -O3 -ffast-math -fopenmp -mavx2 -mfma -DNDEBUG -std=gnu++20 -IC:/msys64/ucrt64/include
 

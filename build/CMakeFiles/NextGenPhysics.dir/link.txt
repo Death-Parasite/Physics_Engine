@@ -1,2 +1,2 @@
-C:\msys64\ucrt64\bin\ar.exe qc libNextGenPhysics.a CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj
+C:\msys64\ucrt64\bin\ar.exe qc libNextGenPhysics.a CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj
 C:\msys64\ucrt64\bin\ranlib.exe libNextGenPhysics.a

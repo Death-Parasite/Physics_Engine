@@ -52,10 +52,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Physics
+CMAKE_SOURCE_DIR = C:\Physics_Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Physics\build
+CMAKE_BINARY_DIR = C:\Physics_Engine\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NextGenPhysics.dir/depend.make
@@ -73,52 +73,68 @@ CMakeFiles/NextGenPhysics.dir/codegen:
 
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: CMakeFiles/NextGenPhysics.dir/flags.make
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: CMakeFiles/NextGenPhysics.dir/includes_CXX.rsp
-CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: C:/Physics/Core/Utils/OBJExporter.cpp
+CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: C:/Physics_Engine/Core/Utils/OBJExporter.cpp
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj: CMakeFiles/NextGenPhysics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.obj -c C:\Physics\Core\Utils\OBJExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics_Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.obj -c C:\Physics_Engine\Core\Utils\OBJExporter.cpp
 
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics\Core\Utils\OBJExporter.cpp > CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics_Engine\Core\Utils\OBJExporter.cpp > CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.i
 
 CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics\Core\Utils\OBJExporter.cpp -o CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics_Engine\Core\Utils\OBJExporter.cpp -o CMakeFiles\NextGenPhysics.dir\Core\Utils\OBJExporter.cpp.s
+
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj: CMakeFiles/NextGenPhysics.dir/flags.make
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj: CMakeFiles/NextGenPhysics.dir/includes_CXX.rsp
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj: C:/Physics_Engine/Cloth/ClothConstraints.cpp
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj: CMakeFiles/NextGenPhysics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics_Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Cloth\ClothConstraints.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothConstraints.cpp.obj -c C:\Physics_Engine\Cloth\ClothConstraints.cpp
+
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics_Engine\Cloth\ClothConstraints.cpp > CMakeFiles\NextGenPhysics.dir\Cloth\ClothConstraints.cpp.i
+
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics_Engine\Cloth\ClothConstraints.cpp -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothConstraints.cpp.s
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: CMakeFiles/NextGenPhysics.dir/flags.make
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: CMakeFiles/NextGenPhysics.dir/includes_CXX.rsp
-CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: C:/Physics/Cloth/ClothSolver.cpp
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: C:/Physics_Engine/Cloth/ClothSolver.cpp
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj: CMakeFiles/NextGenPhysics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.obj -c C:\Physics\Cloth\ClothSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics_Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.obj -c C:\Physics_Engine\Cloth\ClothSolver.cpp
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics\Cloth\ClothSolver.cpp > CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics_Engine\Cloth\ClothSolver.cpp > CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.i
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics\Cloth\ClothSolver.cpp -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics_Engine\Cloth\ClothSolver.cpp -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothSolver.cpp.s
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: CMakeFiles/NextGenPhysics.dir/flags.make
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: CMakeFiles/NextGenPhysics.dir/includes_CXX.rsp
-CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: C:/Physics/Cloth/ClothMesh.cpp
+CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: C:/Physics_Engine/Cloth/ClothMesh.cpp
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj: CMakeFiles/NextGenPhysics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.obj -c C:\Physics\Cloth\ClothMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Physics_Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj -MF CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.obj.d -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.obj -c C:\Physics_Engine\Cloth\ClothMesh.cpp
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics\Cloth\ClothMesh.cpp > CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Physics_Engine\Cloth\ClothMesh.cpp > CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.i
 
 CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics\Cloth\ClothMesh.cpp -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Physics_Engine\Cloth\ClothMesh.cpp -o CMakeFiles\NextGenPhysics.dir\Cloth\ClothMesh.cpp.s
 
 # Object files for target NextGenPhysics
 NextGenPhysics_OBJECTS = \
 "CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj" \
+"CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj" \
 "CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj" \
 "CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj"
 
@@ -126,11 +142,12 @@ NextGenPhysics_OBJECTS = \
 NextGenPhysics_EXTERNAL_OBJECTS =
 
 libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/Core/Utils/OBJExporter.cpp.obj
+libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/Cloth/ClothConstraints.cpp.obj
 libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/Cloth/ClothSolver.cpp.obj
 libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/Cloth/ClothMesh.cpp.obj
 libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/build.make
 libNextGenPhysics.a: CMakeFiles/NextGenPhysics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Physics\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libNextGenPhysics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Physics_Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libNextGenPhysics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\NextGenPhysics.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NextGenPhysics.dir\link.txt --verbose=$(VERBOSE)
 
@@ -143,6 +160,6 @@ CMakeFiles/NextGenPhysics.dir/clean:
 .PHONY : CMakeFiles/NextGenPhysics.dir/clean
 
 CMakeFiles/NextGenPhysics.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Physics C:\Physics C:\Physics\build C:\Physics\build C:\Physics\build\CMakeFiles\NextGenPhysics.dir\DependInfo.cmake "--color=$(COLOR)" NextGenPhysics
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Physics_Engine C:\Physics_Engine C:\Physics_Engine\build C:\Physics_Engine\build C:\Physics_Engine\build\CMakeFiles\NextGenPhysics.dir\DependInfo.cmake "--color=$(COLOR)" NextGenPhysics
 .PHONY : CMakeFiles/NextGenPhysics.dir/depend
 

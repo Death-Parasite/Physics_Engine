@@ -1,11 +1,12 @@
 CMakeFiles/TestClothLive.dir/Test/TestClothLive3D.cpp.obj: \
- C:\Physics\Test\TestClothLive3D.cpp C:/msys64/ucrt64/include/raylib.h \
+ C:\Physics_Engine\Test\TestClothLive3D.cpp \
+ C:/msys64/ucrt64/include/raylib.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
  C:/msys64/ucrt64/include/vadefs.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h C:/msys64/ucrt64/include/rlgl.h \
  C:/msys64/ucrt64/include/raymath.h \
  C:/msys64/ucrt64/include/c++/16.1.0/math.h \
  C:/msys64/ucrt64/include/c++/16.1.0/cmath \
@@ -72,7 +73,6 @@ CMakeFiles/TestClothLive.dir/Test/TestClothLive3D.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
- C:/Physics/Cloth/ClothSolver.h C:/Physics/Core/Types/PhysicsTypes.h \
  C:/msys64/ucrt64/include/c++/16.1.0/vector \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/allocator.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -101,4 +101,8 @@ CMakeFiles/TestClothLive.dir/Test/TestClothLive3D.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/16.1.0/tuple \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h \
+ C:/Physics_Engine/Cloth/ClothSolver.h \
+ C:/Physics_Engine/Core/Types/PhysicsTypes.h \
+ C:/Physics_Engine/Cloth/ClothConstraints.h \
+ C:/Physics_Engine/Math/VectorMath.h
